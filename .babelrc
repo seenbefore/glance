@@ -6,9 +6,11 @@
     }]
   ],
   "plugins": [
+    ["import", { "libraryName": "ant-design-vue", "libraryDirectory": "es", "style": "css" }],
     "@babel/plugin-syntax-dynamic-import",
     ["@babel/plugin-transform-runtime", {
       "regenerator": true
-    }]
+    }],
+    "transform-vue-jsx"    
   ]
 }
